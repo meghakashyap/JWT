@@ -1,0 +1,49 @@
+# GET http://localhost:3000/posts
+# Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiUnVoaSIsImlhdCI6MTYzODI2MzgyNX0.huyi0h2405IJbGwdWVbEFBM6unJj0gBDuafY8Pck8nY
+
+# # ###
+# POST http://localhost:4000/token
+# # Content-Type: application/json
+
+# # {
+# #     "token": ""
+# # }
+
+
+
+# ###
+# POST http://localhost:6000/login
+# Content-Type: application/json
+
+# {
+#     "username" : "Megha",
+#     "password"  : "megha2$5"
+# }
+
+
+# POST http://localhost:6000/login
+# Content-Type: application/json
+
+# {
+#     "username" : "Megha"
+# }
+
+
+
+POST  http://localhost:8000/signin
+Content-Type: application/json
+
+{
+    "username":"user1",
+    "password":"password1"
+}
+
+
+# Get for welcome user
+
+# GET http://localhost:8000/welcome
+
+
+# refresh token 
+POST http://localhost:8000/refresh
+Content-Type: application/json
